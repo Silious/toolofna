@@ -1,0 +1,103 @@
+.c1{
+    position: relative;
+}
+.media{
+    position: fixed;
+    top:60px;
+    left:0;
+    z-index: 0;
+}
+.c1 .c1_line0{
+    position: absolute;
+    top:100px;
+    left:30px;
+    width:50px;
+    height:3px;
+    background-color: lightgray;
+    z-index: 2;
+    overflow: hidden;
+}
+.c1 .c1_line1{
+    width:50px;
+    height:3px;
+    top:100px;
+    left:100px;
+    background-color: lightgray;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+.c1_moline0{
+    position: absolute;
+    width:50px;
+    height:10px;
+    background-color: white;
+    left:-50px;
+}
+.c1_moline1{
+    position: absolute;
+    width:50px;
+    height:10px;
+    background-color: white;
+    left:-50px;
+}
+
+.tool{
+    position: absolute;
+    top:50px;
+    left:180px;
+    background-color: white;
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 900;
+    font-size: 28px;
+    z-index: 2;
+}
+
+.viewreel{
+    position: absolute;
+    top:70px;
+    right: 0;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+    color:white;
+    width:300px;
+    height:60px;
+    line-height: 60px;
+    z-index: 2;
+    overflow: hidden;
+}
+.viewreel span{
+    padding-left: 20px;
+    position: relative;
+    z-index: 4;
+}
+.viewreel .linein{
+    position: absolute;
+    top:30px;
+    left:300px;
+    width:300px;
+    height:3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+.viewtop{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height: 30px;
+    background-color: white;
+}
+.viewbottom{
+    width:300px;
+    height: 30px;
+    position: absolute;
+    top:-30px;
+    left:0px;
+    background-color: white;
+}
